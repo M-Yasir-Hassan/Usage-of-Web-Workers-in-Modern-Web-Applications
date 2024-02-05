@@ -15,14 +15,17 @@ Using Web Workers allows the application to offload heavy data processing tasks 
 Data Generation:
 
 Challenge: Generating and sorting large datasets efficiently.
+
 Solution: Implemented a function (generateLargeArray) to create arrays with 10 million random numbers for testing.
 Web Worker Communication:
 
 Challenge: Communicating between the main thread and Web Worker.
+
 Solution: Used the postMessage method for data transfer and set up event listeners to handle messages.
 UI Responsiveness:
 
 Challenge: Ensuring the UI remains responsive during data processing.
+
 Solution: Displayed a loading message during processing to indicate ongoing tasks.
 # Summary:
 Web Workers significantly enhance the performance of data-intensive tasks, as demonstrated in this project. The README provides clear instructions for running the project locally and highlights key findings and challenges faced during development.
